@@ -7,15 +7,15 @@ myImage.onclick = function (){
     let src = myImage.getAttribute('src'); 
 
     // Check to see if the src is equal to the path of the original image
-    if (src === 'images/pexels-vecislavas-popa-1571459.jpg') {
+    if (src === 'Images/pexels-vecislavas-popa-1571459.jpg') {
          // Change the image to the second image
-         myImage.setAttribute('src', 'images/cross-671379.jpg'); 
+         myImage.setAttribute('src', 'Images/cross-671379.jpg'); 
     } 
 
     // If the current image is second image
     else { 
         // Set the image to the initial image
-        myImage.setAttribute('src', 'images/pexels-vecislavas-popa-1571459.jpg'); 
+        myImage.setAttribute('src', 'Images/pexels-vecislavas-popa-1571459.jpg'); 
     } 
 }
 
